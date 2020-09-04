@@ -1,0 +1,13 @@
+name: Manhunt
+version: ${project.version}
+main: me.yimin.manhunt.Manhunt
+api-version: 1.16
+commands:
+  autotrack:
+    description: Automatically track nearest speedrunner.
+  manhunt:
+    description: Configure settings for manhunt.
+  speedrunner:
+    description: Add, remove, or reset speedrunners.
+  track:
+    description: Track speedrunners.

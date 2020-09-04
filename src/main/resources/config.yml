@@ -1,0 +1,36 @@
+
+#Customization options for the tracker item
+tracker:
+  display_name: "§6§lTracker"
+  lore:
+  - "§9Use this tracker to track speedrunners"
+  - "§6/track §A<username> §9to track/untrack player"
+  - "§6/autotrack §9to automatically track nearest player"
+
+#Customization options for the player's scoreboard
+#
+#This is where the elements of scoreboard are located for reference:
+#
+#title
+#autotracking_title
+#<autotracking status>
+#
+#tracking_title
+#<tracking status>
+#
+scoreboard:
+  #The title (most top) section of the scoreboard
+  title: "          §6§lManhunt          "
+  #The text displayed above the autotrack status
+  autotracking_title: "§EAutotracking:"
+  #The text displayed above the tracking status
+  tracking_title: "§ETracking:"
+
+#Do you want to make it so that only player's with certain permissions can use certain commands?
+#Setting permissions to false will allow any player to use manhunt commands
+#Setting permissions to true will only allow player's with certain permissions to use commands
+permissions: false
+
+#How often, in ticks, do you want the player's tracker to update? There are 20 ticks in every second. Value can not be 0.
+update_tracker_every: 1
+
